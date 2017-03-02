@@ -29550,7 +29550,7 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var wuURL = 'http://api.wunderground.com/api/878e77b9c3411d19/';
+	var wuURL = 'https://api.wunderground.com/api/878e77b9c3411d19/';
 
 	var App = function (_Component) {
 	  _inherits(App, _Component);
@@ -40131,7 +40131,7 @@
 	    value: function autoCompleteApiGenerator(inputValue) {
 	      var _this2 = this;
 
-	      jQuery.getJSON('http://autocomplete.wunderground.com/aq?cb=?&query=' + inputValue).then(function (data) {
+	      jQuery.getJSON('https://autocomplete.wunderground.com/aq?cb=?&query=' + inputValue).then(function (data) {
 	        _this2.state.autocomplete = [];
 	        data.RESULTS.forEach(function (location) {
 	          if (inputValue.length > 2) {
