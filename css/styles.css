@@ -33,7 +33,7 @@ navbar {
   color: #4b5555;
   border: none;
   font-size: 0.8em;
-  text-indent: 5px;
+  text-indent: 10px;
   border-radius: 20px;
 }
 
@@ -237,11 +237,15 @@ navbar {
   navbar {
     float: right;
     width: 80%;
+    text-align: right;
+  }
+  .text-input {
+    width: 60%;
   }
   .main-header {
     position: absolute;
     top: 0px;
-    left: 0px;
+    left: -5px;
     font-weight: 700;
   }
   .greeting-header {
@@ -316,9 +320,12 @@ navbar {
     margin: 15px 0;
   }
   .ten-day-container {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 95%;
+    white-space: nowrap;
+    margin: 10px auto 0 auto;
+    border-top: 1px solid #4b5555;
   }
   .ten-day-data {
     display: inline-block;
@@ -335,10 +342,10 @@ navbar {
     left: 28px;
   }
   .ten-day-hi {
-    left: 50px;
+    left: 45px;
   }
   .ten-day-lo {
-    left: 10px;
+    left: 5px;
   }
 }
 
@@ -348,8 +355,5 @@ navbar {
   }
   .seven-hour-container {
     right: 0px;
-  }
-  .ten-day-container {
-    border-top: 1px solid #4b5555;
   }
 }
