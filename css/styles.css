@@ -63,11 +63,6 @@ navbar {
   cursor: pointer;
 }
 
-.ui-menu-item:hover {
-  color: #50c9c3;
-  width: 80%;
-}
-
 .ui-helper-hidden-accessible {
   position: absolute; left:-999em;
 }
@@ -355,5 +350,9 @@ navbar {
   }
   .seven-hour-container {
     right: 0px;
+  }
+  .ui-menu-item:hover {
+    color: #50c9c3;
+    width: 80%;
   }
 }
