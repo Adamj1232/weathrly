@@ -1,33 +1,5 @@
 # Weathrly  
 
-## Weather Application
+Responsive weather application built in React JS and tested with Mocha and Enzyme. It utilizes Weather Underground’s API to render on demand weather forecasts to a stylish and accessible user interface that supports an auto-complete location search.
 
-To install the dependencies:
-
-```
-npm install
-```
-
-To fire up a development server:
-
-```
-npm start
-```
-
-Once the server is running, you can visit:
-
-* `http://localhost:8080/` to run your application.
-* `http://localhost:8080/webpack-dev-server/test.html` to run your test suite in the browser.
-
-To build the static files:
-
-```js
-npm run build
-```
-
-
-To run tests in Node:
-
-```js
-npm test
-```
+View it [here](https://mickyfen17.github.io/weathrly/)
